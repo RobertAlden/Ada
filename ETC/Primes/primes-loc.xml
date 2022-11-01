@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\ProjectEulerSolutions\ProjectEulerProblem10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\ProjectEulerSolutions\ProjectEulerProblem10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\ProjectEulerSolutions\ProjectEulerProblem10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\ProjectEulerSolutions\ProjectEulerProblem96\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\Primes\default.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 24" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\GitHub\Ada-and-Java-Projects\Ada\Primes\default.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
