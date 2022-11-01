@@ -1,0 +1,102 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U problem3%b		problem3.adb		4b416595 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_lli%s	s-imglli.adb		s-imglli.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200312110721 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200312110721 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200312110721 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200312110721 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D problem3.adb		20211101153301 2f4788f1 problem3%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-conca2.ads		20200312110721 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imglli.ads		20200312110721 114f55d1 system.img_lli%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23 2r6 2r45 3r6 13r40
+X 4 a-numeri.ads
+16K13*Numerics 32e17 14|2r10 2r49
+X 5 a-nuelfu.ads
+18K22*Elementary_Functions[6|39] 14|2w19 2r58
+X 6 a-ngelfu.ads
+52V13*Sqrt{float} 14|83s36[5|18]
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r27
+166U14*New_Line 14|79s17
+242U14*Put 14|76s25
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 14|3w10 13r44
+X 14 problem3.adb
+4U11*problem3 4b11 112l5 112t13
+5R14 LL_Int 6r34 7c14 11e27 13r67 22r26
+6P14 LL_access(5R14) 10r32 13r75 15r17 16r16 20r21 36r27 37r26 38r29 72r27
+9i25 Value{long_integer} 23m19 76r56
+10p25 Next{6P14} 29m30 44r42 47r52 53r42 55r35 56r50 57m41 59m41 77r44
+13U19 Delete_LL_Int[11|20] 64s25
+15p9 First{6P14} 25r20 26m25 41r28 44m25 74r28
+16p9 Last{6P14} 27m25 29r25 30m25
+17i9 Count{natural} 32m17 32r26 65m25 65r34
+19U19 add_node 19b19 19>28 33l13 33t21 106s41
+19i28 I{long_integer} 23r28
+20p17 t{6P14} 22m17 23r17 26r34 27r33 29r38 30r33
+35U19 remove_node 35b19 35>31 69l13 69t24
+35i31 Ind{integer} 42r20 46r56
+36p17 current{6P14} 41m17 43r38 44r34 46r31 47m33 47r44 51r20 52r35 57r33
+. 59r33
+37p17 joined{6P14} 52m25 53m25 53r35 54r38 55r28 56m33 56r43 57r49
+38p17 to_delete{6P14} 43m25 54m25 63r20 64m39 64r39
+39i17 c{integer} 46r51 48m33 48r38
+71U19 print 71b19 80l13 80t18 111s9
+72p17 current{6P14} 74m17 75r23 76r48 77m25 77r36
+82i9 X{long_integer} 83r47 86r29
+83i9 Limit{integer} 84r27
+84a9 primes(boolean) 90r18 90r34 91r20 94r48 95m41 102r26 102r42 103r28
+85i9 k{integer} 92m25 94r43 95r48 96m33 96r38
+86i9 R{long_integer} 101r15 104r36 105m41 105r46
+87i9 Result{long_integer}
+90i13 i{integer} 91r27 92r30 92r34 96r42
+102i21 i{integer} 103r35 104r55 105r63 106r63
+
